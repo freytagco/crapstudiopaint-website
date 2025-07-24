@@ -1,0 +1,2 @@
+This is an introductory website for a future college project I have planned called 'Crap Studio Paint' (NOT AFFILIATED WITH CELSYS). The intention behind making it is to provide a satirical and comedic portrayal of art creation due to the advances of AI.  
+As AI makes the process of creating art convenient to the point of being able to create technical masterpieces in a single prompt, the value of creation lies more and more in authentic inconvenience and the painful process of human creation.
