@@ -18,14 +18,26 @@
         position: fixed;
         bottom: 3%;
         right: 48%;
-        width: clamp(200px, 20vw, 400px);
+        height: clamp(200px, 20vw, 400px);
+        overflow: auto;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer and Edge */
+        width: clamp(200px, 20vw, 500px);
         color: white;
+      }
+
+      .text-container1::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Edge, and Opera */
       }
 
       .text-container2 {
         position: fixed;
         bottom: 17%;
         right: 27%;
+        height: clamp(100px, 20vw, 200px);
+        overflow: auto;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer and Edge */
         width: clamp(200px, 20vw, 400px);
         color: white;
       }
