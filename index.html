@@ -18,27 +18,27 @@
         position: fixed;
         bottom: 3%;
         right: 48%;
-        width: 400px;
+        width: clamp(200px, 20vw, 400px);
         color: white;
       }
 
       .text-container2 {
         position: fixed;
         bottom: 17%;
-        right: 26%;
-        width: 400px;
+        right: 27%;
+        width: clamp(200px, 20vw, 400px);
         color: white;
       }
 
       .header-text {
-        font-size: 24px;
+        font-size: clamp(6px, 3vw, 24px);
         font-weight: bold;
         color: white;
         line-height: auto;
       }
 
       .body-text {
-        font-size: 16px;
+        font-size: clamp(1rem, 2vw, 16px);
         color: white;
         margin-top: 1rem;
         line-height: auto;
@@ -46,8 +46,8 @@
 
       .imageButtonTop {
         position: fixed;
-        width: 395px;
-        height: 249px;
+        width: clamp(150px, 19vw, 400px);
+        height: clamp(50px, 40vh, 250px);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -59,8 +59,8 @@
 
       .imageButtonBottom {
         position: fixed;
-        width: 392px;
-        height: 382px;
+        width: clamp(150px, 19vw, 400px);
+        height: clamp(100px, 40vh, 500px);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -93,9 +93,26 @@
         opacity: 0.8;
       }
 
+      .comingsoonblock {
+        position: fixed;
+        bottom: 3%;
+        left: 55.5%;
+        background-image: url('ComingSoon.webp');
+        width: clamp(150px, 20vw, 300px);
+        height: clamp(150px, 10vh, 250px);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 998;
+      }
+
       #button1 {
         top: 5%;
-        left: 18%;
+        left: 17%;
         background-image: url('BrushCROP.webp');
         clip-path: polygon(
           0.13% 96.14%,
@@ -109,7 +126,7 @@
 
       #button2 {
         bottom: 32%;
-        left: 18.27%;
+        left: 17%;
         background-image: url('SketchCROP.webp');
         clip-path: polygon(
           3.48% 23.34%,
@@ -124,7 +141,7 @@
 
       #button3 {
         top: 5%;
-        right: 19%;
+        right: 18%;
         background-image: url('EraserCROP.webp');
         clip-path: polygon(
           99.74% 96.36%,
@@ -138,7 +155,7 @@
 
       #button4 {
         bottom: 32%;
-        right: 19.27%;
+        right: 18%;
         background-image: url('WheelCROP1.webp');
 
         clip-path: polygon(
@@ -221,20 +238,6 @@
         z-index: 999;
       }
 
-      #comingsoonblock {
-        position: fixed;
-        bottom: -4%;
-        left: 62.5%;
-        width: 370px;
-        height: 129px;
-        transform: translate(-50%, -50%);
-        background-image: url('ComingSoon.webp');
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 998;
-      }
     
     </style>
     <div class="text-container1">
@@ -279,7 +282,7 @@
     <div id="overlaybackground">
         <p></p>
     </div>
-    <div id="comingsoonblock">
+    <div class= "comingsoonblock" id="comingsoonblock1">
       <p></p>
     </div>
     <script>
