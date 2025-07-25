@@ -18,7 +18,7 @@
         overflow: auto;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none; /* Internet Explorer and Edge */
-        width: clamp(200px, 20vw, 500px);
+        width: clamp(180px, 20vw, 500px);
         color: white;
       }
 
@@ -28,13 +28,13 @@
 
       .text-container2 {
         position: fixed;
-        bottom: 14%;
+        bottom: 15%;
         right: 27%;
         height: clamp(100px, 20vw, 200px);
         overflow: auto;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none; /* Internet Explorer and Edge */
-        width: clamp(200px, 20vw, 400px);
+        width: clamp(180px, 20vw, 400px);
         color: white;
       }
 
