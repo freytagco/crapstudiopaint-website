@@ -28,7 +28,7 @@
 
       .text-container2 {
         position: fixed;
-        bottom: 17%;
+        bottom: 14%;
         right: 27%;
         height: clamp(100px, 20vw, 200px);
         overflow: auto;
