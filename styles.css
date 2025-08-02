@@ -43,7 +43,7 @@
         height: 38px;
         width: 300px;
         left: 7%;
-        top: 3%;
+        top: 2.9%;
         color: white;
         z-index: 1001;
       }
@@ -52,8 +52,9 @@
         position: fixed;
         height: 506px;
         width: 183px;
+        background-color: black;
         left: 5%;
-        top: 30%;
+        top: 10%;
         overflow: auto;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none; /* Internet Explorer and Edge */
