@@ -10,7 +10,7 @@
         background-color: lightsteelblue;
       }
 
-      .text-container1 {
+      .menu-body-text-container {
         position: fixed;
         bottom: 3%;
         right: 48%;
@@ -22,11 +22,11 @@
         color: white;
       }
 
-      .text-container1::-webkit-scrollbar {
+      .menu-text-container1::-webkit-scrollbar {
         display: none; /* Chrome, Safari, Edge, and Opera */
       }
 
-      .text-container2 {
+      .menu-header-text-container {
         position: fixed;
         bottom: 15%;
         right: 27%;
@@ -38,17 +38,54 @@
         color: white;
       }
 
-      .header-text {
+      .overlay-header-text-container {
+        position: fixed;
+        height: 28px;
+        width: 211px;
+        left: 9%;
+        top: 3%;
+        overflow: auto;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer and Edge */
+        color: white;
+      }
+
+      .overlay-body-text-container {
+        position: fixed;
+        height: 506px;
+        width: 183px;
+        left: 10%;
+        top: 50%;
+        overflow: auto;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer and Edge */
+        color: white;
+      }
+
+      .menu-header-text {
         font-size: clamp(6px, 3vw, 24px);
         font-weight: bold;
         color: white;
         line-height: auto;
       }
 
-      .body-text {
+      .menu-body-text {
         font-size: clamp(1rem, 2vw, 16px);
         color: white;
         margin-top: 1rem;
+        line-height: auto;
+      }
+
+      .overlay-body-text {
+        font-size: 13.5px;
+        color: white;
+        line-height: auto;
+      }
+
+      .overlay-header-text {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
         line-height: auto;
       }
 
