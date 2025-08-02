@@ -40,8 +40,8 @@
 
       .overlay-header-text-container {
         position: fixed;
-        height: 28px;
-        width: 255px;
+        height: 38px;
+        width: 300px;
         left: 9%;
         top: 3%;
         overflow: auto;
@@ -55,8 +55,8 @@
         position: fixed;
         height: 506px;
         width: 183px;
-        left: 10%;
-        top: 50%;
+        left: 8%;
+        top: 45%;
         overflow: auto;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none; /* Internet Explorer and Edge */
