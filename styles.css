@@ -48,6 +48,7 @@
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none; /* Internet Explorer and Edge */
         color: white;
+        z-index: 1001;
       }
 
       .overlay-body-text-container {
@@ -60,6 +61,7 @@
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none; /* Internet Explorer and Edge */
         color: white;
+        z-index: 1001;
       }
 
       .menu-header-text {
@@ -132,6 +134,7 @@
         color: white;
         border: none;
         cursor: pointer;
+        z-index: 1001;
       }
 
       .closeButton:hover {
