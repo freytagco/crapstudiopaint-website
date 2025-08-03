@@ -47,6 +47,16 @@ body {
   font-style: normal;
 }
 
+.disclaimer-text-container {
+    position: fixed;
+    top: 12.3%;
+    left: 39.5%;
+    height: clamp(25px, 5vw, 50px);
+    width: clamp(200px, 20vw, 400px);
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
 .menu-body-text-container {
     position: fixed;
     bottom: 0.5%;
@@ -157,6 +167,13 @@ body {
     transform: rotate(-0.27deg);
     transform-origin: center;
     font-family: 'Give You Glory', serif;
+}
+
+.disclaimer-text {
+    font-size: clamp(10px, 2vw, 13px);
+    font-weight: bold;
+    color: black;
+    text-align: center;
 }
 
 .menu-header-text {
