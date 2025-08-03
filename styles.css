@@ -53,7 +53,6 @@ body {
     left: 39.5%;
     height: clamp(25px, 5vw, 50px);
     width: clamp(200px, 20vw, 400px);
-    color: black;
     font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -172,7 +171,7 @@ body {
 .disclaimer-text {
     font-size: clamp(10px, 2vw, 13px);
     font-weight: bold;
-    color: black;
+    color: #4D426D;
     text-align: center;
 }
 
