@@ -94,3 +94,16 @@ document.addEventListener("DOMContentLoaded", () => {
         overlaybackground.style.display = 'none';
       };
     });
+
+    function copyText() {
+        const text = "freytagco@gmail.com";
+        navigator.clipboard.writeText(text).then(() => {
+            const popup = document.getElementById("emailpopup");
+            popup.classList.add("show");
+            setTimeout(() => {
+                popup.classList.remove("show");
+            }, 2000); // Hide after 2 seconds
+        }).catch(err => {
+            console.error('Failed to copy text: ', err);
+      });
+      }
